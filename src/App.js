@@ -81,8 +81,6 @@ const App = () => {
 
   return (
     <div className="App">
-      {hasAccount ? <h1>Login in</h1> : <h1>Register</h1>}
-
       {user ? (
         <Main handleLogout={handleLogout} />
       ) : (

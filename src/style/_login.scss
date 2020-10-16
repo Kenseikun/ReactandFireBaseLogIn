@@ -1,0 +1,39 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #001f3f;
+  color: white;
+  padding: 20px 10px;
+  width: 50vh;
+
+  .errorMsg {
+    color: tomato;
+  }
+
+  .btnContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      span {
+        cursor: pointer;
+        color: #0054ae;
+        margin: 10px 5px;
+        transition: 0.4s;
+
+        &:hover {
+          color: #7fdbff;
+        }
+      }
+    }
+  }
+}
