@@ -1,5 +1,7 @@
 import React from "react";
 import "../style/app.scss";
+import loginImg from "../img/logIn.jpg";
+import registerImg from "../img/register.jpg";
 
 const Login = (props) => {
   const {
@@ -19,6 +21,12 @@ const Login = (props) => {
     <section className="login">
       <div className="loginContainer">
         {hasAccount ? <h1>Login in</h1> : <h1>Register</h1>}
+
+        {hasAccount ? (
+          <img className="log_img" src={loginImg} alt="" />
+        ) : (
+          <img className="log_img" src={registerImg} alt="" />
+        )}
 
         <div className="md-form">
           <label>Email</label>
