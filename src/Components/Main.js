@@ -6,7 +6,12 @@ const Main = ({ handleLogout }) => {
     <section className="mainContainer">
       <nav>
         <h2>Welcome</h2>
-        <button onClick={handleLogout}>Logout</button>
+        <button
+          className="btn btn-primary btn-lg btn-block"
+          onClick={handleLogout}
+        >
+          Logout
+        </button>
       </nav>
     </section>
   );
