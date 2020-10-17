@@ -12,6 +12,16 @@ const Main = ({ handleLogout }) => {
         >
           Logout
         </button>
+
+        <div className="copy">
+          <p>Zdjęcie autorstwa Tyler Lastovich z Pexels</p>
+          <a href="https://www.vecteezy.com/free-vector/isometric">
+            Isometric Vectors by Vecteezy
+          </a>
+          <a href="https://www.vecteezy.com/free-vector/smoke-logo">
+            Smoke Logo Vectors by Vecteezy
+          </a>
+        </div>
       </nav>
     </section>
   );

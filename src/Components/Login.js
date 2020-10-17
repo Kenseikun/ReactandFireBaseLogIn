@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/app.scss";
-import loginImg from "../img/logIn.jpg";
-import registerImg from "../img/register.jpg";
+import loginImg from "../img/logIn.svg";
+import registerImg from "../img/register.svg";
 
 const Login = (props) => {
   const {
