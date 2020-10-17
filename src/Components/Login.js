@@ -20,7 +20,7 @@ const Login = (props) => {
   return (
     <section className="login">
       <div className="loginContainer">
-        {hasAccount ? <h1>Login in</h1> : <h1>Register</h1>}
+        {hasAccount ? <h1>Sign In</h1> : <h1>Register</h1>}
 
         {hasAccount ? (
           <img className="log_img" src={loginImg} alt="" />
@@ -61,7 +61,7 @@ const Login = (props) => {
                 Sign In
               </button>
               <p>
-                You are not having an account{" "}
+                If you are not having an account{" "}
                 <span onClick={() => setHasAccout(!hasAccount)}>Register</span>
               </p>
             </>
