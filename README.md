@@ -1,6 +1,6 @@
 # React LogIn with Firebase
 
-<img src="../src/img/mockup.png" height="300">
+<img src="./src/img/mockup.png" height="300">
 
 #### link to
 https://reactloginfirebase.herokuapp.com/
